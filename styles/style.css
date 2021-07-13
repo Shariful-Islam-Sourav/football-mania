@@ -52,14 +52,45 @@ nav ul li {
   color: #ffffff;
 }
 .hero-details h1 {
- margin-bottom: 21px;
+  margin-bottom: 21px;
 }
 .hero-details i {
-    margin-left: 8px;
+  margin-left: 8px;
 }
 .hero-banner {
-    margin-left: 6%;
+  margin-left: 6%;
 }
 .hero-banner img {
   width: 556px;
+}
+/* --Players Styles-- */
+.players-container {
+    display: grid;
+    place-items: center;
+    margin-top: 70px;
+}
+.players {
+    width: 1050px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+.player-cards {
+  width: 330px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.player {
+  padding: 15px;
+}
+.player img {
+  width: 300px;
+}
+.player h2 {
+  color: #18191f;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+.player p {
+    color: #6C6C6C;
+    margin-bottom: 15px;
 }
