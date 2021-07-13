@@ -1,0 +1,65 @@
+/* --Google Fonts-- */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+/* --Common CSS Styles-- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  font-size: 64px;
+}
+a {
+  font-size: 16px;
+  text-decoration: none;
+  color: #ffffff;
+}
+nav,
+.hero {
+  background: #352cb9;
+}
+.btn {
+  padding: 10px 24px;
+  background: #e02c6d;
+}
+/* --Header CSS Styels-- */
+header nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+}
+nav ul {
+  display: flex;
+}
+nav ul li {
+  list-style: none;
+  margin-right: 36px;
+}
+.login-button i {
+  margin-right: 8px;
+}
+/* --Hero Section Styles-- */
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0 120px 0;
+}
+.hero-details {
+  color: #ffffff;
+}
+.hero-details h1 {
+ margin-bottom: 21px;
+}
+.hero-details i {
+    margin-left: 8px;
+}
+.hero-banner {
+    margin-left: 6%;
+}
+.hero-banner img {
+  width: 556px;
+}
