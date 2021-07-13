@@ -38,24 +38,25 @@ nav ul li {
   list-style: none;
   margin-right: 36px;
 }
+.flexible {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flexible-details i {
+  margin-left: 8px;
+}
+
 .login-button i {
   margin-right: 8px;
 }
 /* --Hero Section Styles-- */
 .hero {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   padding: 15px 0 120px 0;
-}
-.hero-details {
-  color: #ffffff;
 }
 .hero-details h1 {
   margin-bottom: 21px;
-}
-.hero-details i {
-  margin-left: 8px;
+  color: #ffffff;
 }
 .hero-banner {
   margin-left: 6%;
@@ -65,15 +66,15 @@ nav ul li {
 }
 /* --Players Styles-- */
 .players-container {
-    display: grid;
-    place-items: center;
-    margin-top: 70px;
+  display: grid;
+  place-items: center;
+  margin-top: 70px;
 }
 .players {
-    width: 1050px;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 30px;
+  width: 1050px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
 }
 .player-cards {
   width: 330px;
@@ -91,6 +92,21 @@ nav ul li {
   margin-bottom: 10px;
 }
 .player p {
-    color: #6C6C6C;
-    margin-bottom: 15px;
+  color: #6c6c6c;
+  margin-bottom: 15px;
+}
+/* Highlight Sectin Styles */
+.highlights {
+  margin-top: 165px;
+}
+.highlight-details h2 {
+  font-size: 48px;
+}
+.highlight-details p {
+  color: #6c6c6c;
+  margin-bottom: 25px;
+}
+.highlight-banner img {
+  width: 567px;
+  margin-left: 5%;
 }
