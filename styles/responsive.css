@@ -66,11 +66,19 @@
   .hero-banner img {
     width: 295px;
   }
-  .player-cards {
-    padding: 8px;
+  .player-cards,
+  .news {
+    padding: 9px;
   }
   .cards {
     width: 320px;
+  }
+  .hero-banner img,
+  .highlight-banner img {
+    width: 300px;
+  }
+  .footer-logo img {
+    width: 250px;
   }
 }
 
