@@ -30,6 +30,11 @@ nav,
   padding: 10px 24px;
   background: #78c51f;
   color: #ffffff;
+  transition: 0.5s all;
+}
+.btn:hover {
+  box-shadow: inset 165px 0 0 0 rgb(221, 235, 18);
+  color: #353232;
 }
 ul li a {
   color: #ffffff;
@@ -217,3 +222,8 @@ footer p {
   color: #000000;
   font-size: 18px;
 }
+
+
+
+
+/* ----------------------------------------------END----------------------------------------------- */
