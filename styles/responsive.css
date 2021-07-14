@@ -1,0 +1,77 @@
+/* Responsive has been completed using 3 breakpoints- 688px, 992px, 1312px; */
+
+/* ---Mobile Responsive Styles--- */
+@media screen and (max-width: 688px) {
+  nav ul li {
+    margin-right: 16px;
+  }
+  .btn {
+    padding: 8px 15px;
+  }
+  .flexible {
+    flex-direction: column;
+  }
+  h1 {
+    font-size: 36px;
+  }
+  a {
+    font-size: 14px;
+  }
+  .hero-banner img,
+  .footer-logo img,
+  .highlight-banner img {
+    width: 330px;
+  }
+  .highlights,
+  .news-letter,
+  .products-container,
+  footer {
+    margin-top: 60px;
+  }
+  .hero {
+    padding: 15px 0 60px 0;
+  }
+  .hero-details {
+    margin-bottom: 50px;
+  }
+  .players-container {
+    width: 100%;
+    margin-top: 70px;
+  }
+  .players,
+  .products {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 18px;
+    place-items: center;
+  }
+  .highlight-banner img {
+    margin-left: 0;
+  }
+  .highlight-details h2 {
+    font-size: 30px;
+  }
+  .highlight-details {
+    margin: 0 15px 24px;
+  }
+  .news-letter > h2,
+  .products-container > h2 {
+    font-size: 26px;
+    margin-bottom: 35px;
+  }
+  .products-container {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 350px) {
+  .hero-banner img {
+    width: 295px;
+  }
+  .player-cards {
+    padding: 8px;
+  }
+  .cards {
+    width: 320px;
+  }
+}
+
+/* --------------------------------------------End----------------------------------------- */
