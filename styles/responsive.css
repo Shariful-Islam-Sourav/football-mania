@@ -2,6 +2,9 @@
 
 /* ---Mobile Responsive Styles--- */
 @media screen and (max-width: 688px) {
+  main {
+    width: 100%;
+  }
   nav ul li {
     margin-right: 16px;
   }
