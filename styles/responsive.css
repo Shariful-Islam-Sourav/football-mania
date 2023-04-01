@@ -64,6 +64,9 @@
   .products-container {
     width: 100%;
   }
+  iframe {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 350px) {
   .hero-banner img {
